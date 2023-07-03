@@ -1,8 +1,21 @@
 #title{
-  background-image: linear-gradient(to right,#ff4c68,#df9172);
+  background-image: linear-gradient(300deg,#00bfff,#ff4c68,#df9172);
+  background-size: 600% 600%;
+  animation: gradient-animation 18s ease infinite;
   color: white;
   position: relative;
   z-index: 0;
+}
+@keyframes gradient-animation{
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
 }
 h1{
   font-family: Montserrat;
@@ -87,7 +100,9 @@ p{
 }
 #testimonials{
   text-align: center;
-  background-image: linear-gradient(to right,#ff4c68,#df9172);
+  background-image: linear-gradient(300deg,#00bfff,#ff4c68,#df9172);
+  background-size: 600% 600%;
+  animation: gradient-animation 18s ease infinite;
     color:white;
 }
 h2{
@@ -109,7 +124,9 @@ em{
   font-size: 1.2rem;
 }
 #press{
-    background-image: linear-gradient(to right,#ff4c68,#df9172);
+    background-image: linear-gradient(300deg,#00bfff,#ff4c68,#df9172);
+  background-size: 600% 600%;
+  animation: gradient-animation 18s ease infinite;
     text-align: center;
     padding-bottom: 3%;
 }
@@ -133,7 +150,9 @@ em{
 }
 #cta{
   text-align: center;
-  background-image: linear-gradient(to right,#ff4c68,#df9172);
+  background-image: linear-gradient(300deg,#00bfff,#ff4c68,#df9172);
+  background-size: 600% 600%;
+  animation: gradient-animation 18s ease infinite;
   padding: 10% 35%;
 }
 #footer{
